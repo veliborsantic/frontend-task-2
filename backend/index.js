@@ -1,8 +1,16 @@
 // template express app
 
 const express = require('express');
-const app = express();
+const cors=require("cors");
 
+const app = express();
+const corsOptions ={
+    origin:'*',
+    credentials:true,
+    optionSuccessStatus:200,
+}
+
+app.use(cors(corsOptions))
 // generate random string with min 5 and max 20 characters
 
 const generateRandomString = (min = 5, max = 20) => {

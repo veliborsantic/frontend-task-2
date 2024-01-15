@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <Select value={selected} onChange={setSelected} apiUrl='localhost:3000.api/items' placeholder='placeholder' />
+      <Select value={selected} onChange={setSelected} apiUrl='http://localhost:3000/api/items' placeholder='Select one or more items...' />
     </div>
   )
 }

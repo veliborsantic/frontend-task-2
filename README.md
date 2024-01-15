@@ -18,6 +18,7 @@ Napraviti custom multiple select async dropdown komponentu koja ce podatke vuci 
  - Odaberite sami dizajn kako smatrate da je najprakticniji UX za ovu komponentu.
 
  - Unutar projekta se nalazi i api json za postman.
+ - Postman public url: `https://www.postman.com/crimson-star-189557/workspace/monetizead-medior-task/collection/11520066-d50671d4-2870-43ce-b756-a5934135bafb?action=share&creator=11520066`
 
  - Nije dozvoljeno koristenje bilo kakvih biblioteka za dropdown komponente ili component biblioteka.
  - Dozvoljeno je koristenje fetch api biblioteka tipa axiosa, react queria.

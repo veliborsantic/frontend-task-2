@@ -1,11 +1,9 @@
-/* Add your preferred styling for selected options */
-
 .selected {
-    background-color: lightgreen; /* Light blue background for selected options */
+    background-color: lightgreen;
 }
 
 .not-selected {
-    background-color: white; /* Light blue background for selected options */
+    background-color: white;
 }
 
 .selected-items {
@@ -31,6 +29,6 @@
     border: none;
     background: none;
     color: #ff0000;
-    font-size: 1.5rem; /* Increase font size for a larger button */
+    font-size: 1.5rem;
     font-weight: bold;
 }

@@ -31,6 +31,11 @@ const Select = (props: Props) => {
     const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
         const selectedIds = Array.from(e.target.selectedOptions).map(option => parseInt(option.value));
         const newSelectedItems = items.filter(item => selectedIds.includes(item.id));
+        const isAnySelected = newSelectedItems.some(newItem => selectedItems.some(item => item.id === newItem.id));
+        if (isAnySelected) {
+            handleBlur()
+            return
+        }
         setSelectedItems(prevSelectedItems => [...prevSelectedItems, ...newSelectedItems]);
         props.onChange([...selectedItems, ...newSelectedItems]);
         handleBlur()

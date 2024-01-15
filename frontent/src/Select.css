@@ -1,0 +1,36 @@
+/* Add your preferred styling for selected options */
+
+.selected {
+    background-color: lightgreen; /* Light blue background for selected options */
+}
+
+.not-selected {
+    background-color: white; /* Light blue background for selected options */
+}
+
+.selected-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.chip {
+    background-color: lightgreen;
+    border: 1px solid #87ceeb;
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.chip button {
+    margin-left: 4px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #ff0000;
+    font-size: 1.5rem; /* Increase font size for a larger button */
+    font-weight: bold;
+}
